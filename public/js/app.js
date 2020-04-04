@@ -14,7 +14,7 @@ weatherForm.addEventListener('submit',(e)=>{
     messageTwo.textContent=""
 
     const location=search.value
-    const url="http://localhost:3000/weather?address="
+    const url="/weather?address="
 
     if(!location){
         messageOne.textContent="Address is needed to be provided"
